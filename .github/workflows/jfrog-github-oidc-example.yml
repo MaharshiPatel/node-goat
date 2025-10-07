@@ -18,7 +18,7 @@ jobs:
     name: "NPM Package"
     runs-on: ubuntu-latest  # node:22-alpine
     env: 
-      BUILD_NAME: "npm-node-goat"
+      BUILD_NAME: "node-goat"
       BUILD_ID: "ga-npm-${{github.run_number}}"
 
          
